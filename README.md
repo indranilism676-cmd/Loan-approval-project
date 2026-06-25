@@ -243,7 +243,7 @@ Loan-Approval-Prediction
 ├── loan_approval.ipynb
 ├── requirements.txt
 ├── README.md
-└── images/
+
 ```
 
 ---
