@@ -79,9 +79,6 @@ Various plots were generated using Matplotlib and Seaborn for better understandi
 
 The dataset was examined for missing values using:
 
-```python
-df.isnull().sum()
-```
 
 Result:
 
@@ -94,17 +91,7 @@ Result:
 ## 4. Feature Selection
 
 Since Logistic Regression requires numerical inputs, only numerical features were selected for training.
-
-```python
-df_numeric = df.select_dtypes(include=["int64", "float64"])
-```
-
 The target variable:
-
-```python
-loan_status
-```
-
 was separated from the input features.
 
 ---
@@ -112,11 +99,6 @@ was separated from the input features.
 ## 5. Feature Scaling
 
 Since Logistic Regression is sensitive to feature magnitudes, feature scaling was applied using **StandardScaler**.
-
-```python
-from sklearn.preprocessing import StandardScaler
-```
-
 The scaler standardizes every feature by transforming them to have:
 
 * Mean = 0
