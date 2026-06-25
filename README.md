@@ -1,8 +1,8 @@
 
 
-# 🏦 Loan Approval Prediction using Logistic Regression
+#  Loan Approval Prediction using Logistic Regression
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to predict whether a loan application will be **approved or rejected** using a **Logistic Regression** machine learning model. The model is trained on a loan dataset containing applicant financial information, employment details, and credit-related attributes.
 
@@ -10,13 +10,13 @@ The project demonstrates a complete machine learning workflow—from data prepro
 
 ---
 
-# 🎯 Objective
+#  Objective
 
 The objective of this project is to build a binary classification model capable of predicting loan approval decisions based on an applicant's financial and credit profile. The project also demonstrates how a trained machine learning model can be deployed as an interactive web application for real-time predictions.
 
 ---
 
-# 📂 Dataset Information
+# Dataset Information
 
 The dataset consists of **45,000 loan applications** with demographic, financial, employment, and credit history information.
 
@@ -36,7 +36,7 @@ The dataset consists of **45,000 loan applications** with demographic, financial
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 * Python
 * Pandas
@@ -49,7 +49,7 @@ The dataset consists of **45,000 loan applications** with demographic, financial
 
 ---
 
-# 📊 Project Workflow
+#  Project Workflow
 
 ## 1. Data Loading
 
@@ -141,7 +141,7 @@ The training data was used for learning the model parameters, while the testing 
 
 ---
 
-# 🤖 Machine Learning Model
+#  Machine Learning Model
 
 The model used is:
 
@@ -158,7 +158,7 @@ The model estimates the probability of loan approval using the logistic (sigmoid
 
 ---
 
-# 📈 Model Evaluation
+# Model Evaluation
 
 The trained model was evaluated using multiple classification metrics.
 
@@ -193,7 +193,7 @@ The classification report includes:
 
 ---
 
-# 💾 Model Saving
+#  Model Saving
 
 After training, the model and scaler were saved using **Joblib**.
 
@@ -206,7 +206,7 @@ Saving the model eliminates the need to retrain it every time predictions are re
 
 ---
 
-# 🌐 Streamlit Deployment
+# Streamlit Deployment
 
 A Streamlit web application was developed to provide an interactive interface for loan prediction.
 
@@ -231,7 +231,7 @@ The application:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 Loan-Approval-Prediction
@@ -248,7 +248,7 @@ Loan-Approval-Prediction
 
 ---
 
-# ▶️ How to Run
+#  How to Run
 
 ## Clone the Repository
 
@@ -275,7 +275,7 @@ streamlit run app.py
 The application will open automatically in your web browser.
 
 
-# 📚 Libraries Used
+#  Libraries Used
 
 ```
 streamlit
