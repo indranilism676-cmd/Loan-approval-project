@@ -133,15 +133,12 @@ The dataset was divided into training and testing sets.
 * Training Data : 80%
 * Testing Data : 20%
 
-```python
-train_test_split()
-```
 
 The training data was used for learning the model parameters, while the testing data was used to evaluate model performance.
 
 ---
 
-#  Machine Learning Model
+# 7. Machine Learning Model
 
 The model used is:
 
@@ -158,7 +155,7 @@ The model estimates the probability of loan approval using the logistic (sigmoid
 
 ---
 
-# Model Evaluation
+# 8. Model Evaluation
 
 The trained model was evaluated using multiple classification metrics.
 
@@ -168,7 +165,7 @@ Measures the overall percentage of correctly classified loan applications.
 
 ---
 
-### Confusion Matrix
+###  Confusion Matrix
 
 Used to analyze:
 
@@ -197,10 +194,6 @@ The classification report includes:
 
 After training, the model and scaler were saved using **Joblib**.
 
-```python
-joblib.dump(output,"loan_model3.pkl")
-joblib.dump(scaler,"scaler3.pkl")
-```
 
 Saving the model eliminates the need to retrain it every time predictions are required.
 
@@ -248,31 +241,6 @@ Loan-Approval-Prediction
 
 ---
 
-#  How to Run
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/Loan-Approval-Prediction.git
-```
-
----
-
-## Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Run the Streamlit Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open automatically in your web browser.
 
 
 #  Libraries Used
