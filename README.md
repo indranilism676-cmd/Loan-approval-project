@@ -190,7 +190,7 @@ The classification report includes:
 
 ---
 
-#  Model Saving
+# 9. Model Saving
 
 After training, the model and scaler were saved using **Joblib**.
 
@@ -199,7 +199,7 @@ Saving the model eliminates the need to retrain it every time predictions are re
 
 ---
 
-# Streamlit Deployment
+# 10. Streamlit Deployment
 
 A Streamlit web application was developed to provide an interactive interface for loan prediction.
 
