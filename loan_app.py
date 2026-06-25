@@ -74,7 +74,7 @@ if st.button("Predict Loan Status"):
 
     st.subheader("Prediction Result")
 
-    if( prediction == 1:)
+    if( prediction == 1):
         st.success("✅ Loan Approved")
     else:
         st.error("❌ Loan Rejected")
